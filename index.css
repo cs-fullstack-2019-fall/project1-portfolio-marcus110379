@@ -1,0 +1,143 @@
+h3{
+    display: inline-block;
+    padding-left: 30px;
+    /*color: white;*/
+}
+*{
+    /*border: 1px solid black;*/
+    margin-right: 0;
+    margin-bottom: 0;
+}
+header{
+    background-color: cornflowerblue;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+color: white;
+}
+#container{
+    margin: 0;
+    height: 5500px;
+
+}
+button{
+    height: 40px;
+    width: 200px;
+    color: aqua;
+    background-color: crimson;
+    border: none;
+    font-size: x-large;
+}
+
+#page1{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    /*background-color: teal;*/
+    background-image: url("background-2462434_1920.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#section1{
+     margin-top: 51px;
+    grid-column: span 10;
+    height: 170px;
+    /*background-color: black;*/
+    color: black;
+
+
+ }
+#sec1b{
+    grid-column: 1/11;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+#sec1c{
+    height: 200px;
+    grid-column: span 10;
+}
+#page2{
+    /*background-color: ;*/
+    /*background-position: left, right;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#section2{
+    height: 660px;
+    grid-column: span 1;
+}
+#section2b{
+    background-color: palegoldenrod;
+}
+#page3{
+
+}
+#section3{
+    height: 660px;
+}
+#page4{
+
+}
+#section4{
+    height: 660px;
+}
+#page5{
+
+}
+#section5{
+    height: 660px;
+}
+#page6{
+
+}
+#section6{
+    height: 660px;
+}
+#page7{
+
+}
+#section7{
+    height: 660px;
+}
+#page8{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-image: url("abstract-graphics-1511763_1920.jpg");
+    text-align: center;
+    /*border: none;*/
+
+}
+#section8{
+    margin-top: 150px;
+    grid-column: 2/4;
+    /*text-align: center;*/
+    height: 660px;
+    font-size: 50px;
+    color: white;
+
+}
+.inline{
+    background: transparent;
+    display: block;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border-bottom: 2px solid white;
+    font-size: 25px;
+    /*border: 0;*/
+    outline: 0;
+
+
+}
+#center{
+    text-align: center;
+    font-size: 50px;
+}
+#btn2{
+    font-size: 50px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
