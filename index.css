@@ -4,7 +4,7 @@ h3{
     /*color: white;*/
 }
 *{
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     margin-right: 0;
     margin-bottom: 0;
 }
@@ -65,22 +65,31 @@ button{
     grid-template-columns: 1fr 1fr;
 }
 #section2{
-    height: 660px;
+    height: 720px;
     grid-column: span 1;
 }
 #section2b{
     background-color: palegoldenrod;
 }
 #page3{
+    background-image: url("background-1370148_1920.jpg");
+    font-size: 50px;
+    color: steelblue;
 
 }
 #section3{
+    padding: 10px;
+    margin-top: 50px;
     height: 660px;
 }
 #page4{
-
+    background-color: darkblue;
+    /*margin-top: 50px;*/
+    font-size: 50px;
 }
 #section4{
+    margin-top: 30px;
+
     height: 660px;
 }
 #page5{
@@ -88,8 +97,12 @@ button{
 }
 #section5{
     height: 660px;
+    text-align: center;
+    font-size: 80px;
+    background-color: khaki;
 }
 #page6{
+    background-color: teal;
 
 }
 #section6{
@@ -124,6 +137,7 @@ button{
     width: 100%;
     height: 50px;
     color: white;
+    border: none;
     border-bottom: 2px solid white;
     font-size: 25px;
     /*border: 0;*/
@@ -131,13 +145,32 @@ button{
 
 
 }
-#center{
-    text-align: center;
-    font-size: 50px;
-}
+/*#center{*/
+/*    text-align: center;*/
+/*    font-size: 50px;*/
+/*}*/
 #btn2{
     font-size: 50px;
     background-color: chocolate;
     color: white;
     border: none;
+}
+#area{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-bottom: 1px solid white;
+
+
+}
+#font{
+    font-size: 100px;
+    text-align: center;
+    font-family: Chilanka;
+}
+#font2{
+    text-align: center;
+    font-size: 20px;
 }
