@@ -4,7 +4,7 @@ h3{
     /*color: white;*/
 }
 *{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-right: 0;
     margin-bottom: 0;
 }
@@ -67,52 +67,71 @@ button{
 #section2{
     height: 720px;
     grid-column: span 1;
+    text-align: center;
 }
 #section2b{
     background-color: palegoldenrod;
 }
 #page3{
+    padding-top: 50px;
     background-image: url("background-1370148_1920.jpg");
     font-size: 50px;
-    color: steelblue;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+
 
 }
 #section3{
     padding: 10px;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     height: 660px;
+    grid-column: 1/2;
+    text-align: center;
 }
 #page4{
-    background-color: darkblue;
+    background-image: url("blue-2889369_1920.jpg");
     /*margin-top: 50px;*/
     font-size: 50px;
 }
 #section4{
-    margin-top: 30px;
-
+    padding-top: 50px;
+    text-align: center;
+    color: white;
     height: 660px;
 }
 #page5{
 
 }
 #section5{
+    padding-top: 50px;
     height: 660px;
     text-align: center;
-    font-size: 80px;
-    background-color: khaki;
+    font-size: 50px;
+    background-color: skyblue;
+    color: white ;
 }
 #page6{
     background-color: teal;
 
 }
 #section6{
+    padding-top: 50px;
     height: 660px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
 #page7{
-
+    background-color: black;
+    color: white;
 }
 #section7{
-    height: 660px;
+    padding-top: 50px;
+    height: 850px;
+    text-align: center;
+    font-size: 50px;
+
 }
 #page8{
     display: grid;
@@ -155,16 +174,16 @@ button{
     color: white;
     border: none;
 }
-#area{
-    width: 100%;
-    background-color: transparent;
-    color: white;
-    font-size: 25px;
-    border: none;
-    border-bottom: 1px solid white;
+/*#area{*/
+/*    width: 100%;*/
+/*    background-color: transparent;*/
+/*    color: white;*/
+/*    font-size: 25px;*/
+/*    border: none;*/
+/*    border-bottom: 1px solid white;*/
 
 
-}
+/*}*/
 #font{
     font-size: 100px;
     text-align: center;
@@ -173,4 +192,17 @@ button{
 #font2{
     text-align: center;
     font-size: 20px;
+}
+.marg{
+    margin-top: 0;
+}
+#padtop{
+    padding-top: 150px;
+}
+#zero{
+    margin-top: 0;
+    color: darkblue;
+}
+#mover{
+    grid-column: 4/6;
 }
